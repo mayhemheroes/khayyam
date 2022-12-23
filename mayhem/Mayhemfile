@@ -1,0 +1,6 @@
+project: khayyam
+target: khayyam_fuzz
+
+cmds:
+    - cmd: /khayyam/fuzz/khayyam_fuzz.py
+      libfuzzer: true
